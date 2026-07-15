@@ -38,7 +38,7 @@ message InitEmailChangeResponse {
 }
 
 message ConfirmEmailChangeRequest {
-    string phone = 1;
+    string email = 1;
     string code = 2;
     string user_id = 3;
 }

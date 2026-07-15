@@ -39,7 +39,7 @@ export interface InitEmailChangeResponse {
 }
 
 export interface ConfirmEmailChangeRequest {
-  phone: string;
+  email: string;
   code: string;
   userId: string;
 }
